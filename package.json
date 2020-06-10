@@ -1,0 +1,17 @@
+{
+  "name": "@ianfreitas1/livelo",
+  "version": "1.0.0",
+  "description": "Retrieves information from Livelo's API",
+  "main": "index.js",
+  "repository": "ianfreitas1/livelo",
+  "scripts": {},
+  "keywords": [
+    "livelo"
+  ],
+  "author": "Ian",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "date-fns": "^2.14.0"
+  }
+}
