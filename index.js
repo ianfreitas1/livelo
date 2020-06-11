@@ -14,7 +14,7 @@ const livelo = async function (dateStart, dateEnd, origin, destinations) {
   const dateRange = eachDayOfInterval({
     start: dateStart,
     end: dateEnd,
-  }).map((d) => format(d, 'yyyy-MM-dd'));
+  }).map(d => format(d, 'yyyy-MM-dd'));
 
   for (const date of dateRange) {
     for (const destination of destinations) {
@@ -47,6 +47,7 @@ const livelo = async function (dateStart, dateEnd, origin, destinations) {
         }
       } catch (err) {
         console.error(err);
+        return { msg: 'Error getting API data' };
       }
     }
   }
