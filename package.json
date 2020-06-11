@@ -1,6 +1,6 @@
 {
   "name": "@ianfreitas1/livelo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrieves information from Livelo's API",
   "main": "index.js",
   "repository": "ianfreitas1/livelo",
