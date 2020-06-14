@@ -5,7 +5,7 @@ const api = axios.create({
   params: {
     passengersCategory: 'ADULT',
     seatClass: 'ECONOMY_CLASS',
-    itemsPerPage: '3',
+    itemsPerPage: '1',
     pageNumber: '1',
     sortBy: 'price%7CASC',
     isInternational: 'false',
