@@ -28,7 +28,7 @@ const getResults = async function (dateStart, dateEnd, origin, destinations) {
 
         if (
           !results[destination] ||
-          results[destination].minPrice > price.minWithoutTax
+          results[destination].minPrice > response.minPrice
         ) {
           results[destination] = {
             ...response,
@@ -44,6 +44,8 @@ const getResults = async function (dateStart, dateEnd, origin, destinations) {
       }
     }
   }
+
+  return results;
 };
 
 module.exports = getResults;

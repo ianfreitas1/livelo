@@ -9,8 +9,8 @@ const formatResponse = response => {
   return {
     origin,
     destination,
-    minPrice: price.minPrice,
-    minPriceWithTax: price.minPriceWithTax,
+    minPrice: price.minWithoutTax,
+    minPriceWithTax: price.minWithTax,
   };
 };
 
