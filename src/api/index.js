@@ -5,10 +5,10 @@ const api = axios.create({
   params: {
     passengersCategory: 'ADULT',
     seatClass: 'ECONOMY_CLASS',
-    itemsPerPage: '10',
+    itemsPerPage: '3',
     pageNumber: '1',
     sortBy: 'price%7CASC',
-    isInternational: 'true',
+    isInternational: 'false',
     partnersCode: 'CVC',
   },
 });
